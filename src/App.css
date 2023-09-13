@@ -24,3 +24,6 @@
   align-items: baseline;
 }
 
+a:hover {
+  cursor: pointer;
+} 
