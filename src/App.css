@@ -1,20 +1,43 @@
 #root {
   overflow-x: hidden;
+  padding: 0px;
 }
 
 .head {
+  margin: 0px;
+  padding: 0px;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  min-height: 22vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  z-index: 2;
 }
 
 .subHeader {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
   width: 60vw;
+  height: fit-content;
+}
+
+.title {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: flex-end;
+  height: 100%;
+}
+
+h1 {
+  font-size: 22pt;
+  margin: 0px;
 }
 
 .navbar {
@@ -24,6 +47,20 @@
   align-items: baseline;
 }
 
+a {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
 a:hover {
   cursor: pointer;
-} 
+}
+
+.body {
+  min-height: 78vh;
+  top: 22vh;
+  left: 0px;
+}
+
+.blog {
+}
