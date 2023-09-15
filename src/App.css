@@ -1,66 +1,125 @@
-#root {
-  overflow-x: hidden;
+* {
+  text-align: center;
   padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
 }
 
-.head {
-  margin: 0px;
-  padding: 0px;
+h1, h2 {
+  font-family: 'Antic', sans-serif;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+h2 {
+  font-size: 22pt;
+}
+
+h2:hover {
+  cursor: pointer;
+  color:#34A3D8;
+}
+
+h3 {
+  font-size: 16pt;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+p {
+  font-size: 15pt;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+.image {
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 20vh;
+  box-shadow: 0px 0px 8px grey;
+}
+
+.imageDiv {
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 22vh;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  padding-top: 7vh;
+  padding-bottom: 2vh;
+  position: fixed;
+  top:0px;
   background-color: white;
   z-index: 2;
 }
 
-.subHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 60vw;
-  height: fit-content;
-}
-
-.title {
-  width: 20%;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: flex-end;
-  height: 100%;
-}
-
-h1 {
-  font-size: 22pt;
-  margin: 0px;
-}
-
-.navbar {
-  display: flex;
-  width: 35vw;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-
-a {
-  font-size: 16pt;
-  font-weight: bold;
-}
-
-a:hover {
-  cursor: pointer;
-}
-
 .body {
-  min-height: 78vh;
-  top: 22vh;
-  left: 0px;
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
+  gap: 2vh;
 }
 
-.blog {
+section {
+  padding-top: 15px;
+  -webkit-animation: fadein 1.5s linear;
+  -moz-animation: fadein 1.5s linear;
+  -o-animation: fadein 1.5s linear;
+  -ms-animation: fadein 1.5s linear;
+    animation: fadein 1.5s linear;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.linksBox {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 15px;
+  height: fit-content;
+  justify-content: center;
+}
+
+.links {
+  scale: 1.5;
+  color: black;
+  padding-top: 15px;
+}
+
+.link:is(:hover, :visited:hover) {
+  color:#34A3D8;
+}
+
+.link:visited {
+  color:#7bb9d5;
+}
+
+.textLinks {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  margin-bottom: 25px;
+}
+
+.foot {
+  position: static;
+  bottom: 0px;
+  height: 4vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-left: 5px;
+  background-color: white;
+}
+
+.foot > p {
+  font-size: 2vh;
 }
