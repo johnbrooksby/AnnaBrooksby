@@ -15,7 +15,7 @@ const Projects = (props) => {
           });
         }}
       >
-        Section 3
+        my favorites
       </h2>
       <section hidden={props.hide.projects}>
         {/* <p>

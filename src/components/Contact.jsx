@@ -18,7 +18,7 @@ const Contact = (props) => {
           });
         }}
       >
-        Contact
+        contact
       </h2>
 
       <section className="contact_me" hidden={props.hide.contact}>

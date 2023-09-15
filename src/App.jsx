@@ -25,7 +25,7 @@ function App() {
         <Name
           hide={hide}
           setHide={setHide}
-          name="anna"
+          name="anna brooksby"
           title="Author"
         />
         <About hide={hide} setHide={setHide} />

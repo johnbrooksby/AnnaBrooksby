@@ -16,7 +16,7 @@ const Skills = (props) => {
           });
         }}
       >
-        Section 2
+        my books
       </h2>
       <section hidden={props.hide.skills}>
         <p></p>

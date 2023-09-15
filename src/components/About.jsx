@@ -10,7 +10,7 @@ const About = (props) => {
           props.setHide({name: true, about: false, skills: true, projects: true, contact: true})
         }}
       >
-        About
+        about
       </h2>
       <section hidden={props.hide.about}>
         <p></p>
