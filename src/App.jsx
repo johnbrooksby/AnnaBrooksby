@@ -17,7 +17,7 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="App">
       <div className="imageDiv">
         <img src="/Anna.jpeg" className="image" alt="Anna.jpeg" />
       </div>
@@ -25,7 +25,7 @@ function App() {
         <Name
           hide={hide}
           setHide={setHide}
-          name="Anna"
+          name="anna"
           title="Author"
         />
         <About hide={hide} setHide={setHide} />
