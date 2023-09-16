@@ -15,6 +15,7 @@ html {
   background-image: url("https://rare-gallery.com/thumbs/503217-background-corrosion.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
