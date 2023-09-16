@@ -6,6 +6,7 @@ const Projects = (props) => {
       <h2
         role="button"
         onClick={() => {
+          window. scrollTo(0, 0)
           props.setHide({
             name: true,
             about: true,
