@@ -39,8 +39,15 @@ h3 {
 
 p {
   font-size: 15pt;
-  margin-right: 10vw;
-  margin-left: 10vw;
+  /* margin-right: 10vw;
+  margin-left: 10vw; */
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.favorites {
+  padding-left: 2em;
+  text-indent: -2em;
 }
 
 .image {
@@ -60,6 +67,10 @@ p {
   /* z-index: 2; */
 }
 
+.text_section {
+  width: 50vw;
+}
+
 .body {
   /* margin-top: 30vh; */
   display: flex;
@@ -71,11 +82,11 @@ p {
 
 section {
   padding-top: 15px;
-  -webkit-animation: fadein 1.5s linear;
-  -moz-animation: fadein 1.5s linear;
-  -o-animation: fadein 1.5s linear;
-  -ms-animation: fadein 1.5s linear;
-    animation: fadein 1.5s linear;
+  -webkit-animation: fadein 1s linear;
+  -moz-animation: fadein 1s linear;
+  -o-animation: fadein 1s linear;
+  -ms-animation: fadein 1s linear;
+    animation: fadein 1s linear;
 }
 
 @-webkit-keyframes fadein {

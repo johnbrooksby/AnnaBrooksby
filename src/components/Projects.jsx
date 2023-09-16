@@ -10,72 +10,30 @@ const Projects = (props) => {
             name: true,
             about: true,
             skills: true,
-            projects: false,
+            projects: !props.hide.projects,
             contact: true,
           });
         }}
       >
         my favorites
       </h2>
-      <section hidden={props.hide.projects}>
-        {/* <p>
-          <span>
-            <a
-              className="link"
-              href="http://54.153.111.7/index.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Plant Picture Database
-            </a>
-          </span>{" "}
-          /{" "}
-          <span>
-            <a
-              className="link"
-              href="https://youtu.be/F1Tv-F8tKHU"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Demo
-            </a>
-          </span>
-        </p>
-        <p>
-          <span>
-            <a
-              className="link"
-              href="http://52.53.167.147/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Sure Spark Coaching
-            </a>
-          </span>{" "}
-          /{" "}
-          <span>
-            <a
-              className="link"
-              href="https://youtu.be/_lbRH4t2dWg"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Demo
-            </a>
-          </span>
-        </p>
-        <p>
-          <span>
-            <a
-              className="link"
-              href="https://johnstictactoe.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Fun little tic-tac-toe
-            </a>
-          </span>
-        </p> */}
+      <section hidden={props.hide.projects} className="text_section">
+        <p className="favorites">Louisa May Alcott - Little Women series</p>
+        <p className="favorites">L. M. Montgomery - Anne of Green Gables series</p>
+        <p className="favorites">Emily of New Moon series, The Blue Castle</p>
+        <p className="favorites">Charlotte Bronte - Jane Eyre</p>
+        <p className="favorites">Victor Hugo - Les Miserables</p>
+        <p className="favorites">Robin McKinley - The Blue Sword, The Hero and the Crown, Chalice,
+          Spindle’s End</p>
+        <p className="favorites">Sarah M. Eden - Lancaster/Jonquil series, Hope Springs series</p>
+        <p className="favorites">Carla Kelly - Libby’s London Merchant, Her Smile, Safe Passage,
+          Borrowed Light series</p>
+        <p className="favorites">Mimi Matthews - Fair as a Star, Parish Orphans of Devon series</p>
+        <p className="favorites">Traci Hunter Abramson - Saints Squad series</p>
+        <p className="favorites">Julie Wright - Lies Jane Austen Told Me; Lies, Love, and Breakfast at
+          Tiffany’s</p>
+        <p className="favorites">Roseanna M. White - A Lady Unrivaled (The Ladies of the Manor series)</p>
+        <p className="favorites">Melanie Jacobson - The List, Always Will</p>
       </section>
     </div>
   );

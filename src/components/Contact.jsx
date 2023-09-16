@@ -14,14 +14,14 @@ const Contact = (props) => {
             about: true,
             skills: true,
             projects: true,
-            contact: false,
+            contact: !props.hide.contact,
           });
         }}
       >
         contact
       </h2>
 
-      <section className="contact_me" hidden={props.hide.contact}>
+      <section className="contact_me text_section" hidden={props.hide.contact}>
         <div className="linksBox">
           <a
             className="links"
