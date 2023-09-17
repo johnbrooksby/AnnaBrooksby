@@ -54,9 +54,9 @@ const About = (props) => {
           setting to dive deeper into these principles and learn how to apply
           them in our lives.</p>
           <br></br>
-          <p>Genre: novelized self-help Books in the works:
-          Learning to Love, Learning to Love Again
-        </p>
+          <p>Genre: novelized self-help</p>
+          <br></br>
+          <p>Books in the works: Learning to Love, Learning to Love Again</p>
       </section>
     </div>
   );

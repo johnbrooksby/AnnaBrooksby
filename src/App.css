@@ -3,9 +3,16 @@
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
-  font-family: 'Yeseva One';
   color: #ffffff;
+  font-family: 'Outfit', sans-serif;
 }
+
+/* @font-face {
+  font-family: 'Glacial Indifference';
+  src: url('fonts/GlacialIndifference-Regular.otf') local('Glacial Indifference') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} */
 
 html {
   overflow-y: scroll;
@@ -19,6 +26,7 @@ html {
 }
 
 h1 {
+  font-family: 'Yeseva One';
   font-size: 36pt;
 }
 
