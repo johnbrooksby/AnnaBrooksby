@@ -4,7 +4,9 @@
   margin: 0px;
   overflow-x: hidden;
   color: #ffffff;
-  font-family: 'Quicksand', sans-serif;}
+  text-shadow: 0px 0px 2px black;
+  font-family: 'Quicksand', sans-serif;
+}
 
 /* @font-face {
   font-family: 'Glacial Indifference';
