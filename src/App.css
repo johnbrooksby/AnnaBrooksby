@@ -4,8 +4,7 @@
   margin: 0px;
   overflow-x: hidden;
   color: #ffffff;
-  font-family: 'Outfit', sans-serif;
-}
+  font-family: 'Quicksand', sans-serif;}
 
 /* @font-face {
   font-family: 'Glacial Indifference';
@@ -136,6 +135,15 @@ section {
   gap: .8rem;
   margin-bottom: 25px;
 } */
+
+.insta {
+  width: 18px;
+  height: 18px;
+  /* border-radius: 9px; */
+  /* background-color: white; */
+  color: white;
+  /* color: black; */
+}
 
 .foot {
   position: static;

@@ -6,7 +6,7 @@ const Skills = (props) => {
       <h2
         role="button"
         onClick={() => {
-          window. scrollTo(0, 0)
+          window.scrollTo(0, 0);
           props.setHide({
             name: true,
             about: true,

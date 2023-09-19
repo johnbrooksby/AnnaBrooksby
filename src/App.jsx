@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./App.css";
 import Name from "./components/Name";
 import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+import Skills from "./components/MyBooks";
+import Projects from "./components/Favorites";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -26,7 +26,7 @@ function App() {
           hide={hide}
           setHide={setHide}
           name="anna brooksby"
-          title="Author"
+          title="author: novelized self-help, cycle-breaking"
         />
         <About hide={hide} setHide={setHide} />
         <Skills hide={hide} setHide={setHide} />

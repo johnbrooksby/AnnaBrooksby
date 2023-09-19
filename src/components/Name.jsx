@@ -12,9 +12,10 @@ const Name = (props) => {
       >
         {props.name}
       </h1>
-      {/* <section hidden={props.hide.name}>
-        <p>I'm a {props.title}</p>
-      </section> */}
+      {/* <section hidden={props.hide.name}> */}
+      <section >
+        <p>{props.title}</p>
+      </section>
     </div>
   );
 };

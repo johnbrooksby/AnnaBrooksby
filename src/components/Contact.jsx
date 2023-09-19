@@ -1,6 +1,6 @@
 import React from "react";
-import { GrFacebook } from "react-icons/gr";
-import { FaInstagram } from "react-icons/fa";
+// import { GrFacebook } from "react-icons/gr";
+import { FaInstagramSquare, FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Contact = (props) => {
@@ -9,7 +9,7 @@ const Contact = (props) => {
       <h2
         role="button"
         onClick={() => {
-          window. scrollTo(0, 0)
+          window.scrollTo(0, 0);
           props.setHide({
             name: true,
             about: true,
@@ -30,7 +30,7 @@ const Contact = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GrFacebook />
+            <FaFacebook />
           </a>
           <br />
           <a
@@ -39,7 +39,9 @@ const Contact = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram />
+            <div>
+              <FaInstagramSquare className="insta" />
+            </div>
           </a>
           <br />
           <a
