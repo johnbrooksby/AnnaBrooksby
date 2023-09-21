@@ -3,13 +3,19 @@
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
   color: #ffffff;
   text-shadow: 0px 0px 8px black;
   font-family: 'Quicksand', sans-serif;
 }
 
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 html {
-  overflow-y: scroll;
+overflow-y: scroll;
 }
 
 .App {
@@ -22,7 +28,10 @@ html {
 h1 {
   font-family: 'Yeseva One';
   font-size: 36pt;
-  text-shadow: 0px 0px 4px black;  
+  text-shadow: 0px 0px 4px black;
+  @media (max-width: 500px) {
+    font-size: 30pt;
+  }
 }
 
 h2 {
@@ -33,7 +42,6 @@ h2 {
 h2:hover {
   cursor: pointer;
   color:#a9e4e8;
-  /* outline: 1px solid #08cad8; */
   text-shadow: 0px 0px 3px #08cad8;
 }
 
@@ -45,8 +53,8 @@ h3 {
 
 p {
   font-size: 15pt;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
+  /* text-justify: inter-word; */
 }
 
 .titleText {
@@ -70,6 +78,7 @@ p {
   width: 100vw;
   padding-top: 7vh;
   padding-bottom: 2vh;
+  height: 20vh;
   /* position: fixed; */
   /* top:0px; */
   /* background-color: white; */
@@ -89,10 +98,6 @@ p {
   gap: 2vh;
 }
 
-.name {
-  min-height: 50vh;
-}
-
 .booksSection {
   display: flex;
   min-height: 28vh;
@@ -106,6 +111,9 @@ p {
   height: 100%;
   /* width: 15vw; */
   margin-right: 3vw;
+  @media (max-width: 900px){
+    margin-right: 0px;
+  }
 }
 
 .covers {
@@ -148,16 +156,12 @@ section {
 
 .links {
   scale: 1.5;
-  /* color: black; */
   padding-top: 15px;
 }
 
 .insta {
-  /* scale: 89%; */
   width: 17px;
   height: 17px;
-  /* margin-top: -1px; */
-  /* height: 3px; */
 }
 
 .foot {
@@ -165,20 +169,15 @@ section {
   bottom: 0px;
   right: 0px;
   height: 4vh;
-  width: 20%;
-  display: flex;
-  justify-content: center;
-  padding-right: 15px;
-}
-
-.footer {
-  margin-top: 5vh;
   width: 100vw;
   display: flex;
   justify-content: center;
-  position: static;
-  bottom: 5px;
+  align-items: center;
+  margin-top: 5vh;
   background-color: rgba(0, 0, 0, .4);
+  @media (max-width:720) {
+    width: 100vw;
+  }
 }
 
 .foot > p {
