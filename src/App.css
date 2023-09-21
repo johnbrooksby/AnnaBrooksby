@@ -97,6 +97,9 @@ p {
   display: flex;
   min-height: 28vh;
   justify-content: center;
+  @media (max-width: 900px){
+    flex-direction: column;
+  }
 }
 
 .coversDiv {
@@ -111,6 +114,9 @@ p {
 
 .booksText {
   width: 30vw;
+  @media (max-width: 900px) {
+    width: 50vw;
+  }
 }
 
 section {
