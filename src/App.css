@@ -104,6 +104,7 @@ p {
   justify-content: center;
   @media (max-width: 900px){
     flex-direction: column;
+    margin-bottom: 12px;
   }
 }
 
@@ -113,11 +114,16 @@ p {
   margin-right: 3vw;
   @media (max-width: 900px){
     margin-right: 0px;
+    margin-bottom: 20px;
+    height: 24vh;
   }
 }
 
 .covers {
   height: 20vh;
+  @media (max-width: 900px) {
+    height: 24vh;
+  }
 }
 
 .booksText {
