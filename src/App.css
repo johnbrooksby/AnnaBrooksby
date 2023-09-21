@@ -4,16 +4,9 @@
   margin: 0px;
   overflow-x: hidden;
   color: #ffffff;
-  text-shadow: 0px 0px 2px black;
+  text-shadow: 0px 0px 8px black;
   font-family: 'Quicksand', sans-serif;
 }
-
-/* @font-face {
-  font-family: 'Glacial Indifference';
-  src: url('fonts/GlacialIndifference-Regular.otf') local('Glacial Indifference') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-} */
 
 html {
   overflow-y: scroll;
@@ -29,6 +22,7 @@ html {
 h1 {
   font-family: 'Yeseva One';
   font-size: 36pt;
+  text-shadow: 0px 0px 4px black;  
 }
 
 h2 {
@@ -39,6 +33,8 @@ h2 {
 h2:hover {
   cursor: pointer;
   color:#a9e4e8;
+  /* outline: 1px solid #08cad8; */
+  text-shadow: 0px 0px 3px #08cad8;
 }
 
 h3 {
@@ -49,10 +45,13 @@ h3 {
 
 p {
   font-size: 15pt;
-  /* margin-right: 10vw;
-  margin-left: 10vw; */
   text-align: justify;
   text-justify: inter-word;
+}
+
+.titleText {
+  margin-right: 10vw;
+  margin-left: 10vw;
 }
 
 .favorites {
@@ -90,6 +89,30 @@ p {
   gap: 2vh;
 }
 
+.name {
+  min-height: 50vh;
+}
+
+.booksSection {
+  display: flex;
+  min-height: 28vh;
+  justify-content: center;
+}
+
+.coversDiv {
+  height: 100%;
+  /* width: 15vw; */
+  margin-right: 3vw;
+}
+
+.covers {
+  height: 20vh;
+}
+
+.booksText {
+  width: 30vw;
+}
+
 section {
   padding-top: 2vh;
   -webkit-animation: fadein 1s linear;
@@ -123,28 +146,12 @@ section {
   padding-top: 15px;
 }
 
-.link:is(:hover, :visited:hover) {
-  color:#85CDD2;
-}
-
-.link:visited {
-  color:#34bac4;
-}
-
-/* .textLinks {
-  display: flex;
-  flex-direction: column;
-  gap: .8rem;
-  margin-bottom: 25px;
-} */
-
 .insta {
-  width: 18px;
-  height: 18px;
-  /* border-radius: 9px; */
-  /* background-color: white; */
-  color: white;
-  /* color: black; */
+  /* scale: 89%; */
+  width: 17px;
+  height: 17px;
+  /* margin-top: -1px; */
+  /* height: 3px; */
 }
 
 .foot {
@@ -156,7 +163,6 @@ section {
   display: flex;
   justify-content: center;
   padding-right: 15px;
-  /* background-color: white; */
 }
 
 .footer {
@@ -164,6 +170,9 @@ section {
   width: 100vw;
   display: flex;
   justify-content: center;
+  position: static;
+  bottom: 5px;
+  background-color: rgba(0, 0, 0, .4);
 }
 
 .foot > p {

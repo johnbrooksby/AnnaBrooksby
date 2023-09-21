@@ -1,7 +1,9 @@
 import React from "react";
 // import { GrFacebook } from "react-icons/gr";
 import { FaInstagramSquare, FaFacebook } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+// import { MdEmail } from "react-icons/md";
+import { ImMail4 } from "react-icons/im";
+
 
 const Contact = (props) => {
   return (
@@ -40,7 +42,9 @@ const Contact = (props) => {
             rel="noopener noreferrer"
           >
             <div>
-              <FaInstagramSquare className="insta" />
+              {/* <FaInstagramSquare className="insta" /> */}
+          {/* <img src="../public/insta.png" className="insta" /> */}
+          <img src="https://static.wixstatic.com/media/da7ef6dd1302486c9a67baebe4b364bc.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/da7ef6dd1302486c9a67baebe4b364bc.png" className="insta" />
             </div>
           </a>
           <br />
@@ -48,8 +52,8 @@ const Contact = (props) => {
             className="links"
             style={{ textDecoration: "none" }}
             href="mailto:annabrooksby@gmail.com"
-          >
-            <MdEmail />
+            >
+            <ImMail4 />
           </a>
         </div>
         {/* <div className="textLinks">
