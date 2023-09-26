@@ -8,7 +8,6 @@ const About = (props) => {
         onClick={() => {
           window. scrollTo(0, 0)
           props.setHide({
-            name: true,
             about: !props.hide.about,
             skills: true,
             projects: true,

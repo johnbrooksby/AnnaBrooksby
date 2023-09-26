@@ -7,7 +7,6 @@ const Projects = (props) => {
         role="button"
         onClick={() => {
           props.setHide({
-            name: true,
             about: true,
             skills: true,
             projects: !props.hide.projects,

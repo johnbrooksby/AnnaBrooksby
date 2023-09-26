@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 
 function App() {
   const [hide, setHide] = useState({
-    name: false,
     about: true,
     skills: true,
     projects: true,
@@ -23,15 +22,16 @@ function App() {
       </div>
       <div className="body">
         <Name
-          hide={hide}
           setHide={setHide}
           name="anna brooksby"
           title="author: novelized self-help, cycle-breaking"
         />
-        <About hide={hide} setHide={setHide} />
-        <Skills hide={hide} setHide={setHide} />
-        <Projects hide={hide} setHide={setHide} />
-        <Contact hide={hide} setHide={setHide} />
+        <div>
+          <About hide={hide} setHide={setHide} />
+          <Skills hide={hide} setHide={setHide} />
+          <Projects hide={hide} setHide={setHide} />
+          <Contact hide={hide} setHide={setHide} />
+        </div>
       </div>
       <Footer />
     </div>

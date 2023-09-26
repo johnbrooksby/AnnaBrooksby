@@ -8,7 +8,6 @@ const Name = (props) => {
         role="button"
         onClick={() => {
           props.setHide({
-            name: false,
             about: true,
             skills: true,
             projects: true,
@@ -19,9 +18,9 @@ const Name = (props) => {
         {props.name}
       </h1>
       {/* <section hidden={props.hide.name}> */}
-      <section>
+      <div className="titleTextSection">
         <p className="titleText">{props.title}</p>
-      </section>
+      </div>
     </div>
   );
 };
