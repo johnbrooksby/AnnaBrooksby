@@ -26,8 +26,8 @@ function App() {
           name="anna brooksby"
           title="author: novelized self-help, cycle-breaking"
         />
-        </div>
-        <div className="body2">
+        {/* </div>
+        <div className="body2"> */}
           <About hide={hide} setHide={setHide} />
           <Skills hide={hide} setHide={setHide} />
           <Projects hide={hide} setHide={setHide} />
