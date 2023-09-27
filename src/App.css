@@ -23,6 +23,7 @@ overflow-y: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 
 h1 {
@@ -55,7 +56,6 @@ h3 {
 p {
   font-size: 15pt;
   text-align: left;
-  /* text-justify: inter-word; */
 }
 
 .titleText {
@@ -94,13 +94,14 @@ p {
   }
 }
 
-.body {
-  /* margin-top: 30vh; */
+.body, .body2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 62vh;
-  /* gap: 2vh; */
+}
+
+.body2 {
+  min-height: 49vh;
 }
 
 .booksSection {
@@ -115,7 +116,6 @@ p {
 
 .coversDiv {
   height: 100%;
-  /* width: 15vw; */
   margin-right: 3vw;
   @media (max-width: 900px){
     margin-right: 0px;
@@ -139,7 +139,6 @@ p {
 }
 
 section {
-  /* padding-top: 2vh; */
   -webkit-animation: fadein 1s linear;
   -moz-animation: fadein 1s linear;
   -o-animation: fadein 1s linear;
@@ -176,9 +175,9 @@ section {
 }
 
 .foot {
-  position: static;
-  bottom: 0px;
-  right: 0px;
+  /* position: static; */
+  /* bottom: 0px; */
+  /* right: 0px; */
   height: 4vh;
   width: 100vw;
   display: flex;
