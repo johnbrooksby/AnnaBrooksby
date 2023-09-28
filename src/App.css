@@ -15,17 +15,8 @@
 }
 
 html {
-overflow-y: scroll;
+  overflow-y: scroll;
 }
-/* 
-.App {
-  background-image: url("https://rare-gallery.com/thumbs/503217-background-corrosion.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  /* object-fit: cover; */
-  /* min-height: 100vh; */
-/* } */
 
 h1 {
   font-family: 'Yeseva One';
@@ -82,10 +73,6 @@ p {
   padding-top: 7vh;
   padding-bottom: 2vh;
   height: 20vh;
-  /* position: fixed; */
-  /* top:0px; */
-  /* background-color: white; */
-  /* z-index: 2; */
 }
 
 .text_section {
@@ -101,10 +88,6 @@ p {
   align-items: center;
   min-height: 62vh;
 }
-
-/* .body2 {
-  min-height: 49vh;
-} */
 
 .booksSection {
   display: flex;
@@ -177,9 +160,6 @@ section {
 }
 
 .foot {
-  /* position: static; */
-  /* bottom: 0px; */
-  /* right: 0px; */
   height: 4vh;
   width: 100vw;
   display: flex;
