@@ -21,7 +21,7 @@ function App() {
         style={{
           objectFit: "cover",
           width: "100vw",
-          height: "100dvh",
+          height: "100vh",
           position: "fixed",
           left: "0px",
           zIndex: -1,
