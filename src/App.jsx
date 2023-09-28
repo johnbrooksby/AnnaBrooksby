@@ -17,7 +17,17 @@ function App() {
 
   return (
     <div className="App">
-      <img style={{objectFit: "cover", width: "100vw", height: "100vh", position: "fixed", left: "0px", zIndex:-1 }} src="https://rare-gallery.com/thumbs/503217-background-corrosion.jpg"/>
+      <img
+        style={{
+          objectFit: "cover",
+          width: "100vw",
+          height: "100dvh",
+          position: "fixed",
+          left: "0px",
+          zIndex: -1,
+        }}
+        src="https://rare-gallery.com/thumbs/503217-background-corrosion.jpg"
+      />
       <div className="imageDiv">
         <img src="/Anna.jpeg" className="image" alt="Anna.jpeg" />
       </div>
@@ -29,11 +39,11 @@ function App() {
         />
         {/* </div>
         <div className="body2"> */}
-          <About hide={hide} setHide={setHide} />
-          <Skills hide={hide} setHide={setHide} />
-          <Projects hide={hide} setHide={setHide} />
-          <Contact hide={hide} setHide={setHide} />
-        </div>
+        <About hide={hide} setHide={setHide} />
+        <Skills hide={hide} setHide={setHide} />
+        <Projects hide={hide} setHide={setHide} />
+        <Contact hide={hide} setHide={setHide} />
+      </div>
       {/* </div> */}
       <Footer />
     </div>
