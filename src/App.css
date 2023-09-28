@@ -17,14 +17,15 @@
 html {
 overflow-y: scroll;
 }
-
+/* 
 .App {
   background-image: url("https://rare-gallery.com/thumbs/503217-background-corrosion.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  /* object-fit: cover; */
   /* min-height: 100vh; */
-}
+/* } */
 
 h1 {
   font-family: 'Yeseva One';
