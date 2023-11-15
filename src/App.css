@@ -157,6 +157,19 @@ section {
 .insta {
   width: 16px;
   height: 16px;
+  /* background-color: white; */
+}
+
+.instaDiv {
+  /* color: rgba(0,0,0,1); */
+  /* width: 16px;
+  height: 16px; */
+  /* background-color: red; */
+  /* border-radius: 50%; */
+  /* mix-blend-mode: multiply; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .foot {
