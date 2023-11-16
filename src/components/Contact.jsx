@@ -5,7 +5,6 @@ import { AiOutlineInstagram } from "react-icons/ai";
 // import { MdEmail } from "react-icons/md";
 import { ImMail4 } from "react-icons/im";
 
-
 const Contact = (props) => {
   return (
     <div>
@@ -41,10 +40,8 @@ const Contact = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="instaDiv">
-              {/* <FaInstagram className="insta" /> */}
-              {/* <AiOutlineInstagram className="insta" /> */}
-          <img src="https://static.wixstatic.com/media/da7ef6dd1302486c9a67baebe4b364bc.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/da7ef6dd1302486c9a67baebe4b364bc.png" className="insta" />
+            <div >
+              <img className="insta" src="/insta.svg" />
             </div>
           </a>
           <br />
@@ -52,7 +49,7 @@ const Contact = (props) => {
             className="links"
             style={{ textDecoration: "none" }}
             href="mailto:annabrooksby@gmail.com"
-            >
+          >
             <ImMail4 />
           </a>
         </div>
