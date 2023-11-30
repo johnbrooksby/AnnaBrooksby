@@ -72,7 +72,7 @@ p {
   width: 100vw;
   padding-top: 7vh;
   padding-bottom: 2vh;
-  height: 20vh;
+  height: 21vh;
 }
 
 .text_section {
@@ -86,7 +86,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 62vh;
+  min-height: 61vh;
 }
 
 .booksSection {

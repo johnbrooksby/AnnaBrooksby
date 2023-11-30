@@ -6,6 +6,7 @@ import Skills from "./components/MyBooks";
 import Projects from "./components/Favorites";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Blog from "./components/Blog/Blog"
 
 function App() {
   const [hide, setHide] = useState({
@@ -41,6 +42,7 @@ function App() {
         <About hide={hide} setHide={setHide} />
         <Skills hide={hide} setHide={setHide} />
         <Projects hide={hide} setHide={setHide} />
+        {/* <Blog hide={hide} setHide={setHide} /> */}
         <Contact hide={hide} setHide={setHide} />
       </div>
       <Footer />
