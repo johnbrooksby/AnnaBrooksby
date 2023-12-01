@@ -13,15 +13,20 @@ const Home = (props) => {
       <Skills hide={hide} setHide={setHide} />
       <Projects hide={hide} setHide={setHide} />
       <h2
-        NavLink to="blog"
+
+        //Temporarily commented out.  Comment back in when going live
+        // NavLink to="blog"
+
         role="button"
         onClick={() => {
         //   props.blog = true;
           localStorage.setItem("blog", "true");
-          window.open("http://localhost:5173/blog", "_blank");
+
+          //Temporarily commented out.  Comment back in when going live
+        //   window.open("http://localhost:5173/blog", "_blank");
         }}
       >
-        blog
+        blog (coming soon!)
       </h2>
       <Contact hide={hide} setHide={setHide} />
     </div>
