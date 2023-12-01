@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useState} from "react";
 
-const Blog = () => {
+const Blog = (props) => {
+    // const [blog, setBlog] = useState(Boolean(localStorage.getItem("blog")))
+
   return (
-    <div>Blog</div>
-  )
-}
+    <div>
+      <h3>blog</h3>
+    </div>
+  );
+};
 
-export default Blog
+export default Blog;
