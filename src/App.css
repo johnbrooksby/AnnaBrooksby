@@ -89,6 +89,10 @@ p {
   min-height: 61vh;
 }
 
+.center {
+  text-align: center;
+}
+
 .booksSection {
   display: flex;
   min-height: 28vh;

@@ -26,8 +26,9 @@ const Home = (props) => {
         //   window.open("http://localhost:5173/blog", "_blank");
         }}
       >
-        blog (coming soon!)
+        blog
       </h2>
+        <p className="center">(coming soon!)</p>
       <Contact hide={hide} setHide={setHide} />
     </div>
   );
