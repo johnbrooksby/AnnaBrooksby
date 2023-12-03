@@ -3,12 +3,8 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 import "./App.css";
-import Home from "./components/home";
+import Home from "./components/Home1"
 import Name from "./components/Name";
-import About from "./components/About";
-import Skills from "./components/MyBooks";
-import Projects from "./components/Favorites";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Blog from "./components/Blog/Blog";
 
