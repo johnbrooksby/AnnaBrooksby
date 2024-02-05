@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { Routes, Route, NavLink, useNavigate } from "react-router-dom";
 
 import "./App.css";
 import Home from "./components/Home1"
@@ -33,7 +32,7 @@ function App() {
         src="https://rare-gallery.com/thumbs/503217-background-corrosion.jpg"
       />
       <div className="imageDiv">
-        <img src="/Anna.jpeg" className="image" alt="Anna.jpeg" />
+        <img src="/Anna.jpg" className="image" alt="Anna.jpeg" />
       </div>
       <div className="body">
         <Name

@@ -4,7 +4,7 @@ const Blog = (props) => {
   // const [blog, setBlog] = useState(Boolean(localStorage.getItem("blog")))
 
   return (
-    <div>
+    <div className="menu">
       <h2
         role="button"
         onClick={() => {
@@ -15,6 +15,7 @@ const Blog = (props) => {
       >
         blog
       </h2>
+      <p className="center">(coming soon!)</p>
     </div>
   );
 };

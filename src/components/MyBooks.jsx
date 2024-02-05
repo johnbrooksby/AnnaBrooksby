@@ -2,57 +2,82 @@ import React from "react";
 
 const Skills = (props) => {
   return (
-    <div>
-      <h2
-        role="button"
-        onClick={() => {
-          window.scrollTo(0, 0);
-          props.setHide({
-            about: true,
-            skills: !props.hide.skills,
-            projects: true,
-            contact: true,
-          });
-        }}
-      >
-        my books
-      </h2>
+    <div className="menu">
+        <h2
+          role="button"
+          onClick={() => {
+            window.scrollTo(0, 0);
+            props.setHide({
+              about: true,
+              skills: !props.hide.skills,
+              projects: true,
+              contact: true,
+            });
+          }}
+        >
+          my books
+        </h2>
+            <div className="center">
+        <p>(in the works)</p>
+      </div>
+      <br />
       <section hidden={props.hide.skills} className="text_section">
         <div className="booksSection">
           <div className="coversDiv">
             <img
               className="covers"
-              src="/LearningToLoveCover.svg"
-              alt="Learning To Love Cover"
+              src="/Betterthanperfect.png"
+              alt="Better than Perfect cover"
             />
           </div>
           <div className="booksText">
-            <p>Learning to Love</p>
+            <p>Better than Perfect</p>
             <br />
             <p>
-              What Annie wants most is a home of her own…but she doesn’t know
-              how to get there. Unlocking the secrets of the dating game and
-              learning to trust herself are all part of the process of Learning
-              to Love.
+              Annie has always been perfect. It’s been her life’s goal to make
+              everyone happy. But when it’s her own happiness on the line, can
+              she let go of perfection in order to claim something real? Is
+              there something out there that’s better than perfect?
             </p>
           </div>
         </div>
-        <br></br>
+        <br />
         <div className="booksSection">
           <div className="coversDiv">
             <img
               className="covers"
-              src="/LearningToLoveAgainCover.svg"
-              alt="Learning To Love Cover"
+              src="/Solidground.png"
+              alt="Solid Ground cover"
             />
           </div>
           <div className="booksText">
-            <p>Learning to Love Again</p>
+            <p>Solid Ground</p>
+            <br />
+            <p>
+              Cam’s confession has shattered Kelsie’s picture-perfect life and
+              she is trying to pick up the pieces. Can a broken heart and a
+              broken marriage be put back together? Can Kelsie and Cam push
+              through their fears and find their solid ground again?
+            </p>
+          </div>
+        </div>
+        <br />
+        <div className="booksSection">
+          <div className="coversDiv">
+            <img
+              className="covers"
+              src="/Morethanenough.png"
+              alt="More than Enough cover"
+            />
+          </div>
+          <div className="booksText">
+            <p>More than Enough</p>
             <br />
             <p>
               Annie finds herself raising her children alone after losing the
-              love of her life in a tragic accident. Will she be able to see
-              past her broken heart and learn to love…again?
+              love of her life in a tragic accident. Can she be enough for them?
+              What will it take for Annie to believe in herself - and in love -
+              again?
             </p>
           </div>
         </div>

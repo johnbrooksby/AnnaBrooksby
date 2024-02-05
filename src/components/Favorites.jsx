@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = (props) => {
   return (
-    <div>
+    <div className="menu">
       <h2
         role="button"
         onClick={() => {

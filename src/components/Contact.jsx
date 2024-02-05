@@ -7,7 +7,7 @@ import { ImMail4 } from "react-icons/im";
 
 const Contact = (props) => {
   return (
-    <div>
+    <div className="menu">
       <h2
         role="button"
         onClick={() => {
