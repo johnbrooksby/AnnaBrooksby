@@ -17,11 +17,11 @@ const Skills = (props) => {
         >
           my books
         </h2>
+      <section hidden={props.hide.skills} className="text_section">
             <div className="center">
         <p>(in the works)</p>
-      </div>
       <br />
-      <section hidden={props.hide.skills} className="text_section">
+      </div>
         <div className="booksSection">
           <div className="coversDiv">
             <img
